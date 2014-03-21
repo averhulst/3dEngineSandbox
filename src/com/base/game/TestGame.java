@@ -1,5 +1,6 @@
 package com.base.game;
 
+import com.base.engine.components.*;
 import com.base.engine.core.*;
 import com.base.engine.rendering.*;
 
@@ -27,6 +28,26 @@ public class TestGame extends Game {
         GameObject planeObject = new GameObject();
         planeObject.addComponent(meshRenderer);
         planeObject.getTransform().setPos(0,-1,5);
+
+        GameObject directionaLightObject = new GameObject();
+        DirectionalLight directionaLight = new DirectionalLight(new Vector3f(0,0,1), 0.4f, new Vector3f(-1,1,-1));
+        directionaLightObject.addComponent(directionaLight);
+
+
+        GameObject pointLightObject = new GameObject();
+        PointLight pointLight = new PointLight(new Vector3f(0,1,0), 0.4f, 0,0,1, new Vector3f(5,0,5), 100);
+        pointLightObject.addComponent(pointLight);
+
+        SpotLight spotLight = new SpotLight(new Vector3f(0,1,1), 0.4f,
+                0,0,0.1f,
+                new Vector3f(5,0,5), 100,
+                new Vector3f(1,0,0), 0.7f);
+        GameObject spotLightObject = new GameObject();
+        spotLightObject.addComponent(spotLight);
+
         getRootObject().addChild(planeObject);
+        getRootObject().addChild(directionaLightObject);
+        getRootObject().addChild(pointLightObject);
+        getRootObject().addChild(spotLightObject);
     }
 }

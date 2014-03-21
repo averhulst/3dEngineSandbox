@@ -1,17 +1,21 @@
-package com.base.engine.rendering;
+package com.base.engine.components;
 
 
+import com.base.engine.components.PointLight;
 import com.base.engine.core.Vector3f;
+import com.base.engine.rendering.ForwardSpot;
 
-public class SpotLight {
+public class SpotLight extends PointLight{
     private PointLight pointLight;
     private Vector3f direction;
     private float cutoff;
 
-    public SpotLight(PointLight pointLight, Vector3f direction, float cutoff) {
+    public SpotLight(Vector3f color, float intensity, float constant, float linear, float exponent, Vector3f position, float range, Vector3f direction, float cutoff){
+        super(color, intensity, constant, linear, exponent, position, range);
         this.pointLight = pointLight;
         this.direction = direction.normalize();
         this.cutoff = cutoff;
+        setShader(ForwardSpot.getInstance());
     }
 
     public PointLight getPointLight() {

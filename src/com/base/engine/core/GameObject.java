@@ -1,5 +1,7 @@
 package com.base.engine.core;
 
+import com.base.engine.components.GameComponent;
+import com.base.engine.rendering.RenderingEngine;
 import com.base.engine.rendering.Shader;
 
 import java.util.ArrayList;
@@ -48,6 +50,14 @@ public class GameObject {
     }
     public Transform getTransform(){
         return transform;
+    }
+    public void addToRenderingEngine(RenderingEngine renderingEngine){
+        for(GameComponent component : components){
+            component.addToRenderingEngine(renderingEngine);
+        }
+        for(GameObject child : children){
+            child.addToRenderingEngine(renderingEngine);
+        }
     }
 }
 
