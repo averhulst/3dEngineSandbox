@@ -27,27 +27,30 @@ public class TestGame extends Game {
         MeshRenderer meshRenderer = new MeshRenderer(mesh, material);
         GameObject planeObject = new GameObject();
         planeObject.addComponent(meshRenderer);
-        planeObject.getTransform().setPos(0,-1,5);
+        planeObject.getTransform().getPos().set(0,-1,5);
 
-        GameObject directionaLightObject = new GameObject();
-        DirectionalLight directionaLight = new DirectionalLight(new Vector3f(0,0,1), 0.4f, new Vector3f(-1,1,-1));
-        directionaLightObject.addComponent(directionaLight);
+        GameObject directionalLightObject = new GameObject();
+        DirectionalLight directionalLight = new DirectionalLight(new Vector3f(0,0,1), 0.4f, new Vector3f(-1,1,-1));
+        directionalLightObject.addComponent(directionalLight);
 
 
         GameObject pointLightObject = new GameObject();
-        PointLight pointLight = new PointLight(new Vector3f(0,1,0), 0.4f, 0,0,1, new Vector3f(5,0,5), 100);
+        PointLight pointLight = new PointLight(new Vector3f(0,1,0), 0.4f, new Vector3f(0,0,1));
         pointLightObject.addComponent(pointLight);
 
         SpotLight spotLight = new SpotLight(new Vector3f(0,1,1), 0.4f,
-                0,0,0.1f,
-                new Vector3f(5,0,5), 100,
-                new Vector3f(1,0,0), 0.7f);
+                                                new Vector3f(0,0,0.1f), 0.7f);
         GameObject spotLightObject = new GameObject();
         spotLightObject.addComponent(spotLight);
 
+        spotLightObject.getTransform().getPos().set(5,0,5);
+        spotLightObject.getTransform().setRotation(new Quaternion().initRotation(new Vector3f(0,1,0), (float)Math.toRadians(-90.0f)));
+
         getRootObject().addChild(planeObject);
-        getRootObject().addChild(directionaLightObject);
+        getRootObject().addChild(directionalLightObject);
         getRootObject().addChild(pointLightObject);
         getRootObject().addChild(spotLightObject);
+
+        getRootObject().addChild(new GameObject().addComponent( new Camera((float)Math.toRadians(70.0f), (float)Window.getWidth()/(float)Window.getHeight(), 0.01f, 1000.0f)));
     }
 }

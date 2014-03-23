@@ -1,11 +1,9 @@
 package com.base.engine.rendering;
 
 import com.base.engine.components.BaseLight;
-import com.base.engine.components.DirectionalLight;
-import com.base.engine.components.PointLight;
+import com.base.engine.components.Camera;
 import com.base.engine.core.GameObject;
 import com.base.engine.core.Vector3f;
-import com.base.engine.rendering.*;
 
 import java.util.ArrayList;
 
@@ -30,19 +28,12 @@ public class RenderingEngine {
         //todo depth clamp
         glEnable(GL_DEPTH_CLAMP);
         glEnable(GL_TEXTURE_2D);
-        mainCamera = new Camera((float)Math.toRadians(70.0f), (float)Window.getWidth()/(float)Window.getHeight(), 0.01f, 1000.0f);
+        //mainCamera = new Camera((float)Math.toRadians(70.0f), (float)Window.getWidth()/(float)Window.getHeight(), 0.01f, 1000.0f);
         ambientLight = new Vector3f(0.1f, 0.1f, 0.1f);
-//        activeDirectionalLight = new DirectionalLight(new BaseLight(new Vector3f(0,0,1), 0.4f), new Vector3f(1,1,1));
-//        directionalLight2 = new DirectionalLight(new BaseLight(new Vector3f(1,0,0), 0.4f), new Vector3f(-1,1,-1));
-//        activePointLight = new PointLight(new BaseLight(new Vector3f(0,1,0), 0.4f), new Attenuation(0,0,1), new Vector3f(5,0,5), 100);
-//        spotLight = new SpotLight(new PointLight(new BaseLight(new Vector3f(0,1,1), 0.6f), new Attenuation(0,0,0.1f), new Vector3f(5,0,5), 100), new Vector3f(1,0,0), 0.7f);
 
     }
     public Vector3f getAmbientLight(){
         return ambientLight;
-    }
-    public void input(float delta){
-        mainCamera.input(delta);
     }
 
     public void render(GameObject object){
@@ -71,27 +62,11 @@ public class RenderingEngine {
 
             object.render(light.getShader());
         }
-//        object.render(forwardDirectional);
-//
-//        DirectionalLight temp = directionalLight;
-//        directionalLight = directionalLight2;
-//        directionalLight2 = temp;
-//
-//       object.render(forwardDirectional);
-//        temp = directionalLight;
-//        directionalLight = directionalLight2;
-//        directionalLight2 = temp;
-//
-//       object.render(forwardPoint);
-//       object.render(forwardSpot);
 
         glDepthFunc(GL_LESS);
         glDepthMask(true);
         glDisable(GL_BLEND);
 
-//        Shader shader = BasicShader.getInstance();
-//        shader.setRenderingEngine(this);
-//        object.render(BasicShader.getInstance());
     }
     public static void clearScreen(){
 
@@ -130,5 +105,8 @@ public class RenderingEngine {
     }
     public BaseLight getActiveLight(){
         return activeLight;
+    }
+    public void addCamera(Camera camera){
+        mainCamera = camera;
     }
 }

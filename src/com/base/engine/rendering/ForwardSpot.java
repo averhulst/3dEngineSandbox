@@ -53,7 +53,8 @@ public class ForwardSpot extends Shader{
 
         setUniformf("specularIntensity", material.getSpecularIntensity());
         setUniformf("specularPower", material.getSpecularPower());
-        setUniform("eyePos", getRenderingEngine().getMainCamera().getPos());
+        setUniform("eyePos", getRenderingEngine().getMainCamera().getTransform().getPos());
+        setUniformSpotLight("spotLight", (SpotLight)getRenderingEngine().getActiveLight());
 
 
 
@@ -70,11 +71,11 @@ public class ForwardSpot extends Shader{
         setUniformf(uniformName + ".atten.constant", pointLight.getConstant());
         setUniformf(uniformName + ".atten.linear", pointLight.getLinear());
         setUniformf(uniformName + ".atten.exponent", pointLight.getExponent());
-        setUniform(uniformName + ".position", pointLight.getPosition());
+        setUniform(uniformName + ".position", pointLight.getTransform().getPos());
         setUniformf(uniformName + ".range", pointLight.getRange());
     }
     public void setUniformSpotLight(String uniformName, SpotLight spotLight){
-        setUniformPointLight(uniformName + ".pointLight", spotLight.getPointLight());
+        setUniformPointLight(uniformName + ".pointLight", spotLight);
         setUniform(uniformName + ".direction", spotLight.getDirection());
         setUniformf(uniformName + ".cutoff", spotLight.getCutoff());
     }

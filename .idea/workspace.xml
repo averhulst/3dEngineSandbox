@@ -10,11 +10,11 @@
     <file path="/Util.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379750020849" ignored="false" />
     <file path="/Game.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395113819185" ignored="false" />
     <file path="/ResourceLoader.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379652933513" ignored="false" />
-    <file path="/Transform.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395113383920" ignored="false" />
-    <file path="/Matrix4f.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395110331813" ignored="false" />
-    <file path="/Camera.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395113993510" ignored="false" />
-    <file path="/Quaternion.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379489333597" ignored="false" />
-    <file path="/Vector3f.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395113619630" ignored="false" />
+    <file path="/Transform.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395468605128" ignored="false" />
+    <file path="/Matrix4f.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395468082993" ignored="false" />
+    <file path="/Camera.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395534285746" ignored="false" />
+    <file path="/Quaternion.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395533777407" ignored="false" />
+    <file path="/Vector3f.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395517477373" ignored="false" />
     <file path="/Texture.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1380085351368" ignored="false" />
     <file path="/RenderUtil.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379821926835" ignored="false" />
     <file path="/a.cfm" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379654041267" ignored="false" />
@@ -22,15 +22,15 @@
     <file path="/Shader.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395198462655" ignored="false" />
     <file path="/basicShader.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379660820439" ignored="false" />
     <file path="/Material.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379821377213" ignored="false" />
-    <file path="/a.dummy" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395298838601" ignored="false" />
+    <file path="/a.dummy" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395382884631" ignored="false" />
     <file path="/BasicShader.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1394694158990" ignored="false" />
-    <file path="/PhongShader.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1394694022259" ignored="false" />
+    <file path="/PhongShader.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395383566076" ignored="false" />
     <file path="/MainComponent.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379738898361" ignored="false" />
     <file path="/BaseLight.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395296407430" ignored="false" />
     <file path="/DirectionalLight.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395296659592" ignored="false" />
     <file path="/Attenuation.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379878526752" ignored="false" />
-    <file path="/PointLight.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395299102414" ignored="false" />
-    <file path="/SpotLight.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395299397831" ignored="false" />
+    <file path="/PointLight.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395383559426" ignored="false" />
+    <file path="/SpotLight.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395468319119" ignored="false" />
     <file path="$USER_HOME$/Wolf3DClone/src/com/base/engine/Game.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1380163381630" ignored="false" />
     <file path="$USER_HOME$/Wolf3DClone/src/com/base/engine/bitmap.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1380093443479" ignored="false" />
     <file path="/bitmap.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1380094107996" ignored="false" />
@@ -38,18 +38,18 @@
     <file path="$USER_HOME$/Wolf3DClone/src/com/base/engine/MainComponent.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1380160012078" ignored="false" />
     <file path="/Main.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1394435066612" ignored="false" />
     <file path="/CoreEngine.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395114209539" ignored="false" />
-    <file path="/TestGame.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395300123292" ignored="false" />
-    <file path="/GameObject.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395294652790" ignored="false" />
-    <file path="/GameComponent.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395290409196" ignored="false" />
-    <file path="/MeshRenderer.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395290213495" ignored="false" />
-    <file path="/RenderingEngine.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395297198826" ignored="false" />
+    <file path="/TestGame.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395523718133" ignored="false" />
+    <file path="/GameObject.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395523829819" ignored="false" />
+    <file path="/GameComponent.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395517841973" ignored="false" />
+    <file path="/MeshRenderer.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395382644454" ignored="false" />
+    <file path="/RenderingEngine.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395517749985" ignored="false" />
     <file path="/Window.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395112882407" ignored="false" />
     <file path="/Time.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395113260782" ignored="false" />
-    <file path="/Vector2f.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395113727347" ignored="false" />
+    <file path="/Vector2f.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395383351988" ignored="false" />
     <file path="/ForwardAmbient.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395198499515" ignored="false" />
-    <file path="/ForwardDirectional.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395297131801" ignored="false" />
-    <file path="/ForwardSpot.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395299611490" ignored="false" />
-    <file path="/ForwardPoint.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395300363001" ignored="false" />
+    <file path="/ForwardDirectional.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395523862101" ignored="false" />
+    <file path="/ForwardSpot.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395533280450" ignored="false" />
+    <file path="/ForwardPoint.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395526360788" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,28 +110,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpotLight.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/SpotLight.java">
+      <file leaf-file-name="Camera.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="165" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForwardSpot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardSpot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="5" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForwardPoint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="61" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+            <state line="53" column="66" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shader.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Shader.java">
+      <file leaf-file-name="Transform.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Transform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.5032258">
+            <state line="5" column="27" selection-start="142" selection-end="142" vertical-scroll-proportion="0.085685484">
               <folding />
             </state>
           </provider>
@@ -151,18 +133,7 @@
       <file leaf-file-name="TestGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointLight.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/PointLight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+            <state line="43" column="48" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,30 +154,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Shader.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardAmbient.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/components/MeshRenderer.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/core/GameObject.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/components/GameComponent.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/components/BaseLight.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardDirectional.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/core/RenderingEngine.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/components/DirectionalLight.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/PhongShader.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardSpot.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/components/SpotLight.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/components/PointLight.java" />
-        <option value="$PROJECT_DIR$/src/com/base/game/TestGame.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/Matrix4f.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/components/SpotLight.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/Transform.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/Vector3f.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Camera.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/components/GameComponent.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/RenderingEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/base/game/TestGame.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardDirectional.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardPoint.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardSpot.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/components/Camera.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/Quaternion.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="347" />
-    <option name="y" value="116" />
-    <option name="width" value="1490" />
-    <option name="height" value="939" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -604,7 +575,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="347" y="116" width="1490" height="939" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -619,16 +590,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1307364" sideWeight="0.4311111" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32514736" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24852653" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2219888" sideWeight="0.7642436" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1307364" sideWeight="0.31514478" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17156863" sideWeight="0.6286812" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15688367" sideWeight="0.71414536" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6719057" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37131882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2858546" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -699,96 +670,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardAmbient.java">
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Matrix4f.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0">
+        <state line="128" column="38" selection-start="4679" selection-end="4679" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/DirectionalLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/GameComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="9" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/BaseLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="314" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/PhongShader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="63" selection-start="5676" selection-end="5676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/MeshRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/SpotLight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="165" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+        <state line="13" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/RenderingEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Vector3f.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.072649576">
+        <state line="42" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="-12.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/BaseLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="430" selection-end="565" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardSpot.java">
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/RenderingEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="2251" selection-end="2251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
+        <state line="30" column="131" selection-start="885" selection-end="994" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -797,16 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardDirectional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="37" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/PointLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+        <state line="50" column="5" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -815,16 +720,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="61" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+        <state line="57" column="89" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.33266932">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Shader.java">
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/GameComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.5032258">
+        <state line="19" column="37" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="42" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="23" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Quaternion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="0" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="48" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/components/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="66" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="142" selection-end="142" vertical-scroll-proportion="0.085685484">
           <folding />
         </state>
       </provider>
