@@ -10,7 +10,6 @@ import static org.lwjgl.opengl.GL32.*;
 
 public class Shader {
     private int program;
-    private RenderingEngine renderingEngine;
     private HashMap<String, Integer> uniforms;
 
     public Shader(){
@@ -29,15 +28,8 @@ public class Shader {
     public void setAttribLocation(String attributeName, int location){
         glBindAttribLocation(program, location, "attributeName");
     }
+    public void updateUniforms(Transform transform, Material material, RenderingEngine renderingEngine){
 
-    public void setRenderingEngine(RenderingEngine renderingEngine){
-        this.renderingEngine = renderingEngine;
-    }
-    public void updateUniforms(Transform transform, Material material){
-
-    }
-    public RenderingEngine getRenderingEngine(){
-        return renderingEngine;
     }
     public void addUniform(String uniform){
         int uniformLocation = glGetUniformLocation(program, uniform);

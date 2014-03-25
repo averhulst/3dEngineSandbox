@@ -43,22 +43,18 @@ public class ForwardSpot extends Shader{
         addUniform("spotLight.cutoff");
 
     }
-    public void updateUniforms(Transform transform, Material material){
+    public void updateUniforms(Transform transform, Material material,  RenderingEngine renderingEngine){
         Matrix4f worldMatrix = transform.getTransformation();
-        Matrix4f projectedMatrix = getRenderingEngine().getMainCamera().getViewProjection().mul(worldMatrix);
-        material.getTexture().bind();
+        Matrix4f projectedMatrix = renderingEngine.getMainCamera().getViewProjection().mul(worldMatrix);
+        material.getTexture("diffuse").bind();
 
         setUniform("model", worldMatrix);
         setUniform("MVP", projectedMatrix);
 
-        setUniformf("specularIntensity", material.getSpecularIntensity());
-        setUniformf("specularPower", material.getSpecularPower());
-        setUniform("eyePos", getRenderingEngine().getMainCamera().getTransform().getPos());
-        setUniformSpotLight("spotLight", (SpotLight)getRenderingEngine().getActiveLight());
-
-
-
-
+        setUniformf("specularIntensity", material.getFloat("specularIntensity"));
+        setUniformf("specularPower", material.getFloat("specularPower"));
+        setUniform("eyePos", renderingEngine.getMainCamera().getTransform().getTransformedPosition());
+        setUniformSpotLight("spotLight", (SpotLight)renderingEngine.getActiveLight());
     }
 
     public void setUniformBaseLight(String uniformName, BaseLight baseLight){
@@ -71,7 +67,7 @@ public class ForwardSpot extends Shader{
         setUniformf(uniformName + ".atten.constant", pointLight.getConstant());
         setUniformf(uniformName + ".atten.linear", pointLight.getLinear());
         setUniformf(uniformName + ".atten.exponent", pointLight.getExponent());
-        setUniform(uniformName + ".position", pointLight.getTransform().getPos());
+        setUniform(uniformName + ".position", pointLight.getTransform().getTransformedPosition());
         setUniformf(uniformName + ".range", pointLight.getRange());
     }
     public void setUniformSpotLight(String uniformName, SpotLight spotLight){

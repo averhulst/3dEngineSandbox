@@ -2,55 +2,45 @@ package com.base.engine.rendering;
 
 import com.base.engine.core.Vector3f;
 
+import java.util.HashMap;
+
 public class Material {
+    private HashMap<String, Texture> textureMap;
+    private HashMap<String, Vector3f> vectorMap;
+    private HashMap<String,Float> floatMap;
     private Texture texture;
     private Vector3f color;
     private float specularIntensity;
     private float specularPower;
 
-    public Material(Texture texture){
-        this(texture, new Vector3f(1,1,1));
+    public Material(){
+        textureMap = new HashMap<String, Texture>();
+        vectorMap = new HashMap<String, Vector3f>();
+        floatMap = new HashMap<String, Float>();
+    }
+    public void addTexture(String name, Texture texture){ textureMap.put(name, texture); }
+    public Texture getTexture(String name){
+        Texture result = textureMap.get(name);
+        if(result != null){
+            return result;
+        }
+        return new Texture("test.png");
+    }
+    public void addVector3f(String name, Vector3f vector){ vectorMap.put(name, vector); }
+    public Vector3f getVector3f(String name){
+        Vector3f result = vectorMap.get(name);
+        if(result != null){
+            return result;
+        }
+        return new Vector3f(0,0,0);
+    }
+    public void addFloat(String name, float floatValue){ floatMap.put(name, floatValue); }
+    public Float getFloat(String name){
+        Float result = floatMap.get(name);
+        if(result != null){
+            return result;
+        }
+        return (float)0;
     }
 
-    public Material(Texture texture, Vector3f color, float specularIntensity, float specularPower){
-        this.texture = texture;
-        this.color = color;
-        this.specularPower = specularPower;
-        this.specularIntensity = specularIntensity;
-    }
-    public Material(Texture texture, Vector3f color){
-        this(texture, color, 2, 32);
-    }
-
-    public Texture getTexture() {
-        return texture;
-    }
-
-    public void setTexture(Texture texture) {
-        this.texture = texture;
-    }
-
-    public Vector3f getColor() {
-        return color;
-    }
-
-    public void setColor(Vector3f color) {
-        this.color = color;
-    }
-
-    public float getSpecularIntensity() {
-        return specularIntensity;
-    }
-
-    public void setSpecularIntensity(float specularIntensity) {
-        this.specularIntensity = specularIntensity;
-    }
-
-    public float getSpecularPower() {
-        return specularPower;
-    }
-
-    public void setSpecularPower(float specularPower) {
-        this.specularPower = specularPower;
-    }
 }

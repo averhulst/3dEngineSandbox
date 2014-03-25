@@ -13,15 +13,7 @@ public class Vector3f
         this.z = z;
     }
 
-    public float length()
-    {
-        return (float)Math.sqrt(x * x + y * y + z * z);
-    }
 
-    public float dot(Vector3f r)
-    {
-        return x * r.getX() + y * r.getY() + z * r.getZ();
-    }
 
     public Vector3f cross(Vector3f r)
     {
@@ -35,9 +27,6 @@ public class Vector3f
     public Vector3f normalize()
     {
         float length = length();
-
-
-
         return new Vector3f(x / length, y / length, z / length);
     }
 
@@ -50,7 +39,6 @@ public class Vector3f
                          axis.mul(this.dot(axis.mul(1 - cosAngle))));   // rotation on local z
     }
     public Vector3f rotate(Quaternion rotation){
-
         Quaternion conjugate = rotation.conjugate();
         Quaternion w = rotation.mul(this).mul(conjugate);
 
@@ -59,81 +47,27 @@ public class Vector3f
     public Vector3f lerp(Vector3f destination, float lerpFactor){
         return destination.sub(this).mul(lerpFactor).add(this);
     }
-    public Vector3f add(Vector3f r)
-    {
-        return new Vector3f(x + r.getX(), y + r.getY(), z + r.getZ());
-    }
 
-    public Vector3f add(float r)
-    {
-        return new Vector3f(x + r, y + r, z + r);
-    }
-
-    public Vector3f sub(Vector3f r)
-    {
-        return new Vector3f(x - r.getX(), y - r.getY(), z - r.getZ());
-    }
-
-    public Vector3f sub(float r)
-    {
-        return new Vector3f(x - r, y - r, z - r);
-    }
-
-    public Vector3f mul(Vector3f r)
-    {
-        return new Vector3f(x * r.getX(), y * r.getY(), z * r.getZ());
-    }
-
-    public Vector3f mul(float r)
-    {
-        return new Vector3f(x * r, y * r, z * r);
-    }
-    public Vector3f abs()
-    {
-        return new Vector3f(Math.abs(x), Math.abs(y), Math.abs(z));
-    }
-    public Vector3f div(Vector3f r)
-    {
-        return new Vector3f(x / r.getX(), y / r.getY(), z / r.getZ());
-    }
-
-    public Vector3f div(float r)
-    {
-        return new Vector3f(x / r, y / r, z / r);
-    }
-
-    public float getX()
-    {
-        return x;
-    }
-
-    public void setX(float x)
-    {
-        this.x = x;
-    }
-
-    public float getY()
-    {
-        return y;
-    }
-
-    public void setY(float y)
-    {
-        this.y = y;
-    }
-    public void set(float x, float y, float z){ this.x = x;this.y = y;this.z = z;}
-    public float getZ()
-    {
-        return z;
-    }
-    public float max(){
-        return Math.max(x, Math.max(y, z));
-    }
-
-    public void setZ(float z)
-    {
-        this.z = z;
-    }
+    public Vector3f add(Vector3f r){return new Vector3f(x + r.getX(), y + r.getY(), z + r.getZ());}
+    public Vector3f add(float r){return new Vector3f(x + r, y + r, z + r);}
+    public Vector3f sub(Vector3f r){return new Vector3f(x - r.getX(), y - r.getY(), z - r.getZ());}
+    public Vector3f sub(float r){return new Vector3f(x - r, y - r, z - r);}
+    public Vector3f mul(Vector3f r){return new Vector3f(x * r.getX(), y * r.getY(), z * r.getZ());}
+    public Vector3f mul(float r){return new Vector3f(x * r, y * r, z * r);}
+    public Vector3f abs(){return new Vector3f(Math.abs(x), Math.abs(y), Math.abs(z));}
+    public Vector3f div(Vector3f r){return new Vector3f(x / r.getX(), y / r.getY(), z / r.getZ());}
+    public Vector3f div(float r){return new Vector3f(x / r, y / r, z / r);}
+    public float length(){return (float)Math.sqrt(x * x + y * y + z * z);}
+    public float dot(Vector3f r){return x * r.getX() + y * r.getY() + z * r.getZ();}
+    public float getX(){return x;}
+    public float getY(){return y;}
+    public float getZ(){return z;}
+    public float max(){return Math.max(x, Math.max(y, z));}
+    public void  setX(float x){this.x = x;}
+    public void  setY(float y){this.y = y;}
+    public Vector3f  set(float x, float y, float z){ this.x = x;this.y = y;this.z = z; return this;}
+    public Vector3f  set(Vector3f r){ set(r.getX(), r.getY(), r.getZ()); return this;}
+    public void  setZ(float z){this.z = z;}
     public Vector2f getXY(){return new Vector2f(x, y);}
     public Vector2f getYZ(){return new Vector2f(y, z);}
     public Vector2f getZX(){return new Vector2f(z, x);}

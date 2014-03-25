@@ -87,7 +87,8 @@ public class CoreEngine {
              }
             
             if(render){
-                renderingEngine.render(game.getRootObject());
+                game.render(renderingEngine);
+//                renderingEngine.render(game.getRootObject());
                 Window.render();
                 //render();
                 frames++;
