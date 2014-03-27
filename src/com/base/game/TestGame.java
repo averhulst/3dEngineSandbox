@@ -26,7 +26,7 @@ public class TestGame extends Game {
         material.addTexture("diffuse", new Texture( "test.png"));
         material.addFloat("specularIntensity", 1);
         material.addFloat("specularPower", 8);
-
+        Mesh tempMesh = new Mesh("monkey.obj");
         MeshRenderer meshRenderer = new MeshRenderer(mesh, material);
         GameObject planeObject = new GameObject();
         planeObject.addComponent(meshRenderer);
@@ -63,9 +63,11 @@ public class TestGame extends Game {
 
         int indices2[] = { 0, 1, 2,
                 2, 1, 3};
+
         Mesh mesh2 = new Mesh(vertices2, indices2, true);
         GameObject testMesh1 = new GameObject().addComponent(new MeshRenderer(mesh2, material));
         GameObject testMesh2 = new GameObject().addComponent(new MeshRenderer(mesh2, material));
+        GameObject testMesh3 = new GameObject().addComponent(new MeshRenderer(tempMesh, material));
 
         testMesh1.getTransform().getPos().set(0,2,0);
         testMesh2.getTransform().getPos().set(0,0,5);
@@ -73,8 +75,12 @@ public class TestGame extends Game {
 
 
         testMesh1.addChild(new GameObject().addComponent(new Camera((float) Math.toRadians(70.0f), (float) Window.getWidth() / (float) Window.getHeight(), 0.01f, 1000.0f)));
+        testMesh3.getTransform().getPos().set(5, 5, 5);
+        testMesh3.getTransform().setRotation(new Quaternion(new Vector3f(0,1,0), (float)Math.toRadians(-70)));
+
         addObject(testMesh1);
         addObject(testMesh2);
+        addObject(testMesh3);
         directionalLight.getTransform().setRotation(new Quaternion(new Vector3f(1,0,0), (float)Math.toRadians(-45)));
     }
 

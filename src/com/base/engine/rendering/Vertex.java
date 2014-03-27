@@ -10,6 +10,7 @@ public class Vertex {
     private Vector3f pos;
     private Vector2f texCoord;
     private Vector3f normal;
+    //data being sent to glsl shader
 
 
     public Vertex(Vector3f pos){
