@@ -26,6 +26,11 @@ public class TestGame extends Game {
         material.addTexture("diffuse", new Texture( "test.png"));
         material.addFloat("specularIntensity", 1);
         material.addFloat("specularPower", 8);
+
+        Material material2 = new Material();//new Texture("test.png"), new Vector3f(1,1,1), 1, 8);
+        material2.addTexture("diffuse", new Texture( "bricks.jpg"));
+        material2.addFloat("specularIntensity", 1);
+        material2.addFloat("specularPower", 8);
         Mesh tempMesh = new Mesh("monkey.obj");
         MeshRenderer meshRenderer = new MeshRenderer(mesh, material);
         GameObject planeObject = new GameObject();
@@ -81,6 +86,7 @@ public class TestGame extends Game {
         addObject(testMesh1);
         addObject(testMesh2);
         addObject(testMesh3);
+        addObject(new GameObject().addComponent(new MeshRenderer(new Mesh("monkey.obj"), material2)));
         directionalLight.getTransform().setRotation(new Quaternion(new Vector3f(1,0,0), (float)Math.toRadians(-45)));
     }
 

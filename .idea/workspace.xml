@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395295443112" ignored="false" />
     <file path="/Dummy.txt" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379208898560" ignored="false" />
-    <file path="/Mesh.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395815727878" ignored="false" />
+    <file path="/Mesh.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395903212476" ignored="false" />
     <file path="/Util.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379750020849" ignored="false" />
     <file path="/Game.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395730709941" ignored="false" />
     <file path="/ResourceLoader.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1379652933513" ignored="false" />
@@ -38,7 +38,7 @@
     <file path="$USER_HOME$/Wolf3DClone/src/com/base/engine/MainComponent.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1380160012078" ignored="false" />
     <file path="/Main.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1394435066612" ignored="false" />
     <file path="/CoreEngine.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395730645232" ignored="false" />
-    <file path="/TestGame.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395893044507" ignored="false" />
+    <file path="/TestGame.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395902626638" ignored="false" />
     <file path="/GameObject.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395730325180" ignored="false" />
     <file path="/GameComponent.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395730399966" ignored="false" />
     <file path="/MeshRenderer.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395730463727" ignored="false" />
@@ -53,6 +53,7 @@
     <file path="/IndexedModel.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395815736082" ignored="false" />
     <file path="/ObjModel.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395900694384" ignored="false" />
     <file path="/ObjIndex.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395888618270" ignored="false" />
+    <file path="/MeshResource.java" changelist="ed5552e5-0351-45ee-84b7-f0c861092bcd" time="1395903032321" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,33 +114,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ObjModel.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/meshLoading/ObjModel.java">
+      <file leaf-file-name="Mesh.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="87" selection-start="5473" selection-end="5473" vertical-scroll-proportion="0.44847327">
+            <state line="25" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.370068">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3231#3250#0" expanded="true" />
-                <element signature="e#3316#3334#0" expanded="true" />
-                <element signature="e#3394#3412#0" expanded="true" />
+                <element signature="e#639#661#0" expanded="true" />
+                <element signature="e#4110#4118#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mesh.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java">
+      <file leaf-file-name="MeshResource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/MeshResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="16" selection-start="4015" selection-end="4015" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexedModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/meshLoading/IndexedModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="644" selection-end="1366" vertical-scroll-proportion="0.0">
+            <state line="27" column="12" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,7 +139,7 @@
       <file leaf-file-name="TestGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="99" selection-start="3824" selection-end="3824" vertical-scroll-proportion="0.0">
+            <state line="88" column="98" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardAmbient.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardSpot.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardPoint.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ForwardDirectional.java" />
@@ -178,19 +168,20 @@
         <option value="$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/core/Game.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Vertex.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/meshLoading/IndexedModel.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/meshLoading/ObjIndex.java" />
-        <option value="$PROJECT_DIR$/src/com/base/game/TestGame.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/meshLoading/ObjModel.java" />
+        <option value="$PROJECT_DIR$/src/com/base/game/TestGame.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/MeshResource.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="167" />
-    <option name="width" value="1823" />
-    <option name="height" value="965" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -301,6 +292,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rendering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dengine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dengine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rendering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resourceManagement" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -634,7 +655,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="167" width="1823" height="965" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -656,8 +677,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1669506" sideWeight="0.68153656" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31846344" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15688367" sideWeight="0.7475442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.7465619" order="2" side_tool="false" content_ui="combo" />
@@ -729,15 +750,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardAmbient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="70" selection-start="716" selection-end="748" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/ForwardSpot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="67" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.0">
@@ -820,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="16" selection-start="4015" selection-end="4015" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/meshLoading/IndexedModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="644" selection-end="1366" vertical-scroll-proportion="0.0">
@@ -841,21 +846,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="99" selection-start="3824" selection-end="3824" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/meshLoading/ObjModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="87" selection-start="5473" selection-end="5473" vertical-scroll-proportion="0.44847327">
+        <state line="134" column="87" selection-start="5473" selection-end="5473" vertical-scroll-proportion="0.3197279">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3231#3250#0" expanded="true" />
             <element signature="e#3316#3334#0" expanded="true" />
             <element signature="e#3394#3412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="98" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/MeshResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.370068">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#661#0" expanded="true" />
+            <element signature="e#4110#4118#0" expanded="true" />
           </folding>
         </state>
       </provider>
