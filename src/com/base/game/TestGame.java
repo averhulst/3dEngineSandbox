@@ -32,7 +32,7 @@ public class TestGame extends Game {
         material2.addFloat("specularIntensity", 1);
         material2.addFloat("specularPower", 8);
         Mesh tempMesh = new Mesh("monkey.obj");
-        MeshRenderer meshRenderer = new MeshRenderer(mesh, material);
+        MeshRenderer meshRenderer = new MeshRenderer(mesh, material2);
         GameObject planeObject = new GameObject();
         planeObject.addComponent(meshRenderer);
         planeObject.getTransform().getPos().set(0,-1,5);
